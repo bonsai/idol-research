@@ -1,32 +1,42 @@
-# Research migration manifest
+# Migration from idol-lab
 
-## Source
+## Purpose
 
-`bonsai/idol-lab`
+Move empirical research assets from `bonsai/idol-lab` into `bonsai/idol-research` without mixing theory and evidence.
 
-## Split rule
+## Move here
 
-Keep theory, essays, conceptual ontology and folklore interpretation in `idol-lab`.
-Move empirical assets that support observation, comparison, data analysis and marketing research into `idol-research`.
+- structured observations
+- event / performer datasets
+- crawlers and collectors used for empirical analysis
+- analysis notebooks / scripts
+- marketing experiments and hypothesis tests
+- derived datasets and visualizations
 
-## Initial split
+## Keep in idol-lab
 
-- `data/event.json` → `data/events.json`
-- `data/SPARK-fes-artists-2025.jsonl` → `data/spark-fes-artists-2025.jsonl`
-- `crawler/idolwatch.py` → `collect/idolwatch.py`
-- `research/00-research-design.md` → reference only; theory remains in `idol-lab`
+- theory
+- folklore / cultural interpretation
+- ontology as a conceptual framework
+- essays whose primary purpose is interpretation
+- theoretical hypotheses before empirical operationalization
 
-## Provenance
+## First migration wave
 
-All initial assets originate from `bonsai/idol-lab` and retain their original observation/source fields where available.
+Source assets identified in `idol-lab` include:
 
-## Next split candidates
-
+- `data/events.json`
 - `data/idolwatch.jsonl`
-- `data/idols.json`
-- `data/history.json`
-- `data/local-idol.json`
-- `data/lnan-l-group.json`
-- `data/music/`
+- `data/spark-2025-artists.jsonl`
+- `crawler/idolwatch.py`
+- `crawler/generate_rss.py`
 
-These should be moved when their analytical purpose is confirmed, rather than mechanically duplicating every theoretical dataset.
+Migration rule: preserve source provenance and original timestamps; do not silently rewrite facts as interpretations.
+
+## Next
+
+1. Copy empirical assets into this repository.
+2. Add source/provenance metadata.
+3. Add schemas for observation, hypothesis, evidence, and evaluation.
+4. Create `cases/terasuma/` as the first case study.
+5. Build reusable cross-idol comparison datasets.
