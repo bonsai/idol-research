@@ -1,0 +1,33 @@
+version: 1
+name: idol-research-loop
+purpose: evidence-of-agent-workflow
+case: amaterasu-x-planets-tsushinsha
+
+loop:
+  - id: observation
+    input: research-seeds/
+    output: evidence/observation.json
+  - id: question
+    input: evidence/observation.json
+    output: evidence/research-question.md
+  - id: data
+    input: data/
+    output: evidence/dataset.json
+  - id: analysis
+    input: evidence/dataset.json
+    output: evidence/analysis.md
+  - id: evaluation
+    input: evidence/analysis.md
+    output: evidence/evaluation.md
+  - id: insight
+    input: evidence/evaluation.md
+    output: evidence/insight.md
+  - id: next
+    input: evidence/insight.md
+    output: research-seeds/next-question.md
+
+principles:
+  - fact-inference-hypothesis-separated
+  - provenance-preserved
+  - reproducible-run
+  - next-question-generated
