@@ -1,0 +1,65 @@
+version: "1.0"
+name: idol-research-data-hierarchy
+purpose: Define the epistemic and data lineage hierarchy for idol-research.
+
+principle: lower_layers_are_evidence_for_higher_layers
+
+levels:
+  - level: 0
+    name: source
+    description: Original information source.
+    examples: [official_site, official_social, event_page, ticket_page, media]
+    required: [url, accessed_at]
+
+  - level: 1
+    name: evidence
+    description: Extracted evidence from a source.
+    required: [source_id, retrieved_at]
+
+  - level: 2
+    name: observation
+    description: Time-bounded observation made from evidence.
+    required: [subject, predicate, object, observed_at, evidence_id]
+
+  - level: 3
+    name: entity_relation
+    description: Normalized entities and relations represented by observations.
+    examples: [Person, Group, Agency, Event, Venue, Song, Release, Media]
+
+  - level: 4
+    name: fact
+    description: Validated statement supported by evidence.
+    required: [subject, predicate, object, evidence]
+
+  - level: 5
+    name: analysis
+    description: Computation, comparison, aggregation, graph or statistical analysis over facts.
+    examples: [frequency, network, time_series, geography, co_appearance]
+
+  - level: 6
+    name: insight_hypothesis
+    description: Research interpretation or hypothesis generated from analysis.
+    required: [basis]
+
+  - level: 7
+    name: research_question
+    description: Next question generated from an insight or unresolved hypothesis.
+    required: [basis]
+
+lineage:
+  flow: source -> evidence -> observation -> entity_relation -> fact -> analysis -> insight_hypothesis -> research_question -> source
+
+rules:
+  - Fact must not be created from hypothesis alone.
+  - Observation must retain provenance and observation time.
+  - Entity resolution must not rely on name similarity alone.
+  - Analysis must reference its input facts or observations.
+  - Insight and hypothesis must be distinguishable from fact.
+  - Research questions may generate new seeds and return to source discovery.
+  - Do not overwrite lower-level evidence when higher-level interpretations change.
+  - Prefer provenance over row count.
+
+status:
+  fact: validated
+  inference: analytical_interpretation
+  hypothesis: unverified
