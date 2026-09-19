@@ -1,0 +1,33 @@
+version: "1"
+name: idol-research
+kind: tool-contract
+purpose: "アイドル領域の観測、調査、source/corpusを提供する"
+transport:
+  primary: "GitHub artifact / JSON / Markdown"
+  optional: "API"
+inputs:
+  sources: "public source observations"
+outputs:
+  observations: "normalized research observations"
+  entities: "idol/group/person/event entities"
+  corpus: "research corpus"
+  hypotheses: "research questions and hypotheses"
+tools:
+  - name: collect
+    input: sources
+    output: observations
+  - name: normalize
+    input: observations
+    output: normalized-observations
+  - name: export
+    input: normalized-observations
+    output: shareable-dataset
+  - name: research
+    input: corpus
+    output: findings
+boundary:
+  owns: ["research corpus", "source observations", "research questions"]
+  does_not_own: ["playlist ranking", "general music ML"]
+interop:
+  contract: "JSON-first; no shared Python imports required"
+  consumer: "Downstream repositories consume exported observations"
