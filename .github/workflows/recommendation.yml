@@ -1,0 +1,44 @@
+name: idol-research recommendation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 1 * * 3"
+
+permissions:
+  contents: write
+
+jobs:
+  recommend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout idol-research
+        uses: actions/checkout@v6
+
+      - name: Checkout canonical idol-db
+        uses: actions/checkout@v6
+        with:
+          repository: bonsai/idol-db
+          ref: main
+          path: idol-db
+
+      - name: Run recommendation pipeline
+        run: |
+          python3 -m recommendation.run_idol_db \
+            --idol-db ./idol-db \
+            --profile recommendation/seed/user_profiles.jsonl \
+            --features-output recommendation/output/idol_db_features.jsonl \
+            --output recommendation/output/recommendations.jsonl \
+            --top-k 5
+
+      - name: Validate generated JSONL
+        run: |
+          python3 -c "import json,pathlib; [json.loads(x) for p in ['recommendation/output/idol_db_features.jsonl','recommendation/output/recommendations.jsonl'] for x in pathlib.Path(p).read_text(encoding='utf-8').splitlines() if x.strip()]"
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add recommendation/output/
+          git diff --cached --quiet || git commit -m "chore: refresh idol-db recommendations"
+          git push
