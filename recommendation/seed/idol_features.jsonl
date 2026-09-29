@@ -1,0 +1,4 @@
+{"artist_id":"idol-a","genres":["地下アイドル","ポップ"],"similar_to":["idol-a"],"area":"新宿","free":true,"days_since_activity":2}
+{"artist_id":"idol-b","genres":["地下アイドル"],"similar_to":["idol-a"],"area":"渋谷","free":true,"days_since_activity":7}
+{"artist_id":"idol-c","genres":["ロック"],"similar_to":[],"area":"新宿","free":false,"days_since_activity":3}
+{"artist_id":"idol-d","genres":["ポップ"],"similar_to":[],"area":"池袋","free":true,"days_since_activity":1}
