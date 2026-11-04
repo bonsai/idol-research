@@ -1,1 +1,89 @@
-{"version":"2026-08-28","events":[{"event_id":"yatai-fes-2026","name":"テレビ大阪YATAIフェス！2026","date":"2026-09-18/2026-09-23","venue":"大阪城公園・太陽の広場","region":"大阪府","category":"festival","source_url":"https://www.tv-osaka.co.jp/tvofes/","accessed_at":"2026-08-28"},{"event_id":"habafes-2026-autumn","name":"はばたけ！アイドルフェス 秋の陣","date":"2026-09-21/2026-09-22","region":"大阪府","category":"idol_festival","source_url":"https://club.tv-osaka.co.jp/article/event/28966/","accessed_at":"2026-08-28","performers":["天女神樂","あゆめの","おちゃメンタル☆パーティー","カラフルスクリーム","グットクルー","新章 大阪☆春夏秋冬","シンセカイヒーロー","すーぱーぷーばぁー!!","宇宙∞プラネクシア","SAY-LA","W.ダブルヴィー","NEO BREAK","ほくりくアイドル部","POLARiS"]},{"event_id":"kirameki-fes-2026","name":"きらめきフェス2026 supported by かがやきフェス","date":"2026-08-13","venue":"GORILLA HALL OSAKA","region":"大阪府","category":"idol_festival","source_url":"https://prtimes.jp/main/html/rd/p/000000035.000120809.html","accessed_at":"2026-08-28"},{"event_id":"habafes-2026-summer","name":"はばたけ！アイドルフェス夏祭り","date":"2026-07-11","venue":"クリエイティブセンター大阪（CCO）名村造船所跡地","region":"大阪府","category":"idol_festival","source_url":"https://club.tv-osaka.co.jp/article/event/26440/","accessed_at":"2026-08-28"}]}
+{
+  "version": "2026-11-04",
+  "events": [
+    {
+      "event_id": "yatai-fes-2026",
+      "name": "テレビ大阪YATAIフェス！2026",
+      "date": "2026-09-18/2026-09-23",
+      "venue": "大阪城公園・太陽の広場",
+      "region": "大阪府",
+      "category": "festival",
+      "source_url": "https://www.tv-osaka.co.jp/tvofes/",
+      "accessed_at": "2026-08-28"
+    },
+    {
+      "event_id": "habafes-2026-autumn",
+      "name": "はばたけ！アイドルフェス 秋の陣",
+      "date": "2026-09-21/2026-09-22",
+      "region": "大阪府",
+      "category": "idol_festival",
+      "source_url": "https://club.tv-osaka.co.jp/article/event/28966/",
+      "accessed_at": "2026-08-28",
+      "performers": ["天女神樂", "あゆめの", "おちゃメンタル☆パーティー", "カラフルスクリーム", "グットクルー", "新章 大阪☆春夏秋冬", "シンセカイヒーロー", "すーぱーぷーばぁー!!", "宇宙∞プラネクシア", "SAY-LA", "W.ダブルヴィー", "NEO BREAK", "ほくりくアイドル部", "POLARiS"]
+    },
+    {
+      "event_id": "kirameki-fes-2026",
+      "name": "きらめきフェス2026 supported by かがやきフェス",
+      "date": "2026-08-13",
+      "venue": "GORILLA HALL OSAKA",
+      "region": "大阪府",
+      "category": "idol_festival",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000120809.html",
+      "accessed_at": "2026-08-28"
+    },
+    {
+      "event_id": "habafes-2026-summer",
+      "name": "はばたけ！アイドルフェス夏祭り",
+      "date": "2026-07-11",
+      "venue": "クリエイティブセンター大阪（CCO）名村造船所跡地",
+      "region": "大阪府",
+      "category": "idol_festival",
+      "source_url": "https://club.tv-osaka.co.jp/article/event/26440/",
+      "accessed_at": "2026-08-28"
+    },
+    {
+      "event_id": "moku-moku-idol-night-2026-11-05",
+      "name": "もくもくアイドルNight",
+      "date": "2026-11-05",
+      "venue": "ヨドバシカメラ マルチメディア梅田 2F LINKS広場",
+      "region": "大阪府大阪市北区",
+      "category": "idol_live",
+      "entry_fee_yen": 0,
+      "drink_fee_yen": 0,
+      "start_time": "19:00",
+      "priority_entry_time": "18:45",
+      "performers": ["脳内パステル", "宇宙∞プラネクシア"],
+      "reservation_url": null,
+      "reservation_note": "一般観覧無料・予約不要。優先入場券は当日17:30から配布。優先入場券は対象商品購入が条件。",
+      "source_urls": [
+        "https://favezone.jimdofree.com/2026/11/26/2026%E5%B9%B411%E6%9C%88%E9%96%8B%E5%82%AC-%E3%82%82%E3%81%8F%E3%82%82%E3%81%8F%E3%82%A2%E3%82%A4%E3%83%89%E3%83%ABnight-%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E6%A2%85%E7%94%B0/",
+        "https://www.eventernote.com/places/13035/events"
+      ],
+      "accessed_at": "2026-11-04",
+      "verification_status": "listed; check organizer/store notice for day-of changes"
+    },
+    {
+      "event_id": "watts-circle-musen-2man-2026-11-05",
+      "name": "ワッツ◎さーくる 木曜定期公演vol.286〜6周年直前無銭スペシャルツーマン編〜2部",
+      "date": "2026-11-05",
+      "venue": "梅田amHALL",
+      "region": "大阪府大阪市北区",
+      "category": "idol_live",
+      "entry_fee_yen": 0,
+      "drink_fee_yen": 600,
+      "start_time": "20:10",
+      "open_time": "19:50",
+      "end_time": "22:00",
+      "performers": ["ワッツ◎さーくる", "W.ダブルヴィー"],
+      "ticket_url": "https://livepocket.jp/e/amhall1105",
+      "reservation_note": "2部通常エリア0円、前方エリア2,500円。各券種当日+500円、ドリンク代別。",
+      "source_urls": [
+        "https://oshisuki.com/events/2026-11-05-cmw13k98?oshi=ran-w-daburuvi",
+        "https://teapawt.net/w__official",
+        "https://www.eventernote.com/places/821/events"
+      ],
+      "accessed_at": "2026-11-04",
+      "verification_status": "listed; confirm drink charge and ticket conditions with organizer"
+    }
+  ]
+}
