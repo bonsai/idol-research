@@ -108,26 +108,63 @@
     },
     {
       "event_id": "yaoyorozu-festival-2026-day1",
-      "name": "YAOYOROZU FESTIVAL26 DAY1 こいこい神楽",
+      "name": "YAOYOROZU FESTIVAL ’26 — KOIKOI KAGURA（11/6）",
       "date": "2026-11-06",
       "venue": "久宝寺緑地 陸上競技場",
       "region": "大阪府八尾市",
-      "category": "idol_festival",
-      "entry_fee_yen": 0,
+      "category": "festival",
       "start_time": "16:00",
       "performers": [
         "リボンのないぷれぜんと",
         "LΩPARA",
-        "LuvHz",
-        "+Alpha",
-        "にゃあにゃあ"
+        "朝ノ瑠璃",
+        "love=charmulet",
+        "ペトラナイトメア",
+        "七天八十院アエギス",
+        "チョま",
+        "小玉ひかり",
+        "松岡侑李（いかさん）",
+        "今井麻美"
       ],
       "source_urls": [
-        "https://idolgenba.com/schedule/2026-11-06",
-        "https://idol-live.net/events/osaka"
+        "https://yaoyorozu-fes.jp/#program",
+        "https://yaoyorozu-fes.jp/"
       ],
       "accessed_at": "2026-11-05",
-      "verification_status": "listed as free admission; organizer's day-of notice not independently confirmed"
+      "verification_status": "official festival program supplied by user; program details confirmed from official schedule. Admission fee not established by this program excerpt.",
+      "program": [
+        {
+          "start_time": "16:00",
+          "type": "歌・ダンス",
+          "title": "オープニングアクト",
+          "performers": [
+            "リボンのないぷれぜんと",
+            "LΩPARA"
+          ]
+        },
+        {
+          "start_time": "17:00",
+          "type": "クイズ",
+          "title": "Qがーる",
+          "performers": [
+            "朝ノ瑠璃",
+            "love=charmulet",
+            "ペトラナイトメア",
+            "七天八十院アエギス"
+          ]
+        },
+        {
+          "start_time": "18:30",
+          "type": "歌のステージ",
+          "title": "八尾の夜に、歌が咲く。",
+          "performers": [
+            "チョま",
+            "小玉ひかり",
+            "松岡侑李（いかさん）",
+            "今井麻美"
+          ]
+        }
+      ]
     },
     {
       "event_id": "colorful-scream-kinban-2026-11-06",
