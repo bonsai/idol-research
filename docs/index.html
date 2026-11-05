@@ -3,15 +3,115 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=/idol-research/osaka/">
-  <link rel="canonical" href="https://bonsai.github.io/idol-research/osaka/">
-  <title>大阪アイドルライブ情報へ移動</title>
-  <script>
-    window.location.replace("/idol-research/osaka/");
-  </script>
+  <meta name="description" content="bonsai/idol-research のイベント情報、調査レポート、データ、分析ツールへの総合入口">
+  <meta name="theme-color" content="#10111a">
+  <title>IDOL RESEARCH｜Bonsai</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10111a;--panel:#1b1d2b;--ink:#f7f4ff;--muted:#aaa8bc;--pink:#ff78b8;--cyan:#83e7e8;--line:#35374b}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#382044 0,transparent 42%),var(--bg);color:var(--ink);font:16px/1.7 system-ui,sans-serif}
+    main{width:min(1080px,calc(100% - 32px));margin:auto;padding:42px 0 64px}
+    header{padding:24px 0 30px;border-bottom:1px solid var(--line)}.eyebrow{color:var(--cyan);font-size:.78rem;font-weight:800;letter-spacing:.18em}
+    h1{font-size:clamp(2.5rem,8vw,5.2rem);line-height:.98;letter-spacing:-.045em;margin:14px 0}
+    .lead{color:var(--muted);max-width:680px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}
+    .primary{display:inline-block;background:var(--pink);color:#241323;font-weight:850;padding:10px 16px;border-radius:999px}
+    .secondary{display:inline-block;border:1px solid var(--line);padding:9px 15px;border-radius:999px}
+    h2{font-size:1.12rem;letter-spacing:.08em;margin:34px 0 12px;color:var(--cyan)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px}
+    article{background:linear-gradient(145deg,#222437,var(--panel));border:1px solid var(--line);border-radius:16px;padding:18px}
+    h3{font-size:1.12rem;margin:0 0 6px}article p{color:var(--muted);font-size:.92rem;margin:5px 0 12px}
+    .links{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:.9rem}
+    .links a{border-bottom:1px solid #46566a;padding-bottom:2px}
+    .wide{grid-column:1/-1}.small{font-size:.84rem;color:var(--muted)}
+    footer{border-top:1px solid var(--line);margin-top:38px;padding-top:18px;color:var(--muted);font-size:.84rem}
+    @media(max-width:600px){main{padding-top:24px}.wide{grid-column:auto}}
+  </style>
 </head>
 <body>
-  <p>大阪アイドルライブ情報へ移動しています。</p>
-  <p><a href="/idol-research/osaka/">移動しない場合はこちら</a></p>
+<main>
+  <header>
+    <div class="eyebrow">BONSAI / RESEARCH INDEX</div>
+    <h1>IDOL<br>RESEARCH</h1>
+    <p class="lead">アイドル文化を、現場の観測・イベント情報・データ収集・分析から読み解く研究プロジェクト。ここを入口に、公開ページとリポジトリ内の資料へ移動できます。</p>
+    <div class="actions">
+      <a class="primary" href="./osaka/">大阪ライブ情報を見る ↗</a>
+      <a class="secondary" href="https://github.com/bonsai/idol-research">GitHubリポジトリ ↗</a>
+      <a class="secondary" href="https://github.com/bonsai/idol-research/issues">Issues ↗</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>LIVE &amp; EVENTS｜現場・イベント</h2>
+    <div class="grid">
+      <article>
+        <h3>大阪ライブガイド</h3>
+        <p>大阪の公演を日付・会場・出演者・料金で確認。無銭／低価格候補を優先して掲載。</p>
+        <div class="links"><a href="./osaka/">大阪イベント一覧 ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/osaka/index.html">ページの編集元 ↗</a></div>
+      </article>
+      <article>
+        <h3>イベントデータベース</h3>
+        <p>イベント情報の構造化データ。日付、会場、出演者、料金、出典を記録。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/blob/main/data/events.json">events.json ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/data">dataフォルダ ↗</a></div>
+      </article>
+      <article>
+        <h3>イベント調査レポート</h3>
+        <p>日ごとの調査メモと確認状況。掲載情報と公式確認済み情報を区別。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/blob/main/research/events/2026-11-06-osaka-idol-lives.md">大阪 11/6 ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/research/events/2026-11-05-osaka-free-idol-lives.md">大阪 11/5 ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/research/events">調査一覧 ↗</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>RESEARCH｜研究・企画</h2>
+    <div class="grid">
+      <article>
+        <h3>研究計画</h3>
+        <p>観測から仮説、データ、分析、評価、洞察へつなぐ研究全体の設計。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/blob/main/research-plan.md">Research Plan ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/docs/event-research.md">イベント調査方針 ↗</a></div>
+      </article>
+      <article>
+        <h3>研究ケース</h3>
+        <p>個別グループ・プロジェクトを対象にした実証ケース。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/tree/main/cases">ケース一覧 ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/cases/terasuma">Terasuma ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/cases/amaterasu-x-planets-tsushinsha">あまてらす×惑星通信社 ↗</a></div>
+      </article>
+      <article>
+        <h3>データ階層・移行資料</h3>
+        <p>データ資産の配置と、idol-labからの分蜂・役割分担。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/blob/main/data-hierarchy.yaml">data-hierarchy.yaml ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/docs/migration-from-idol-lab.md">移行方針 ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/README.md">README ↗</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>DATA &amp; TOOLS｜データ・分析ツール</h2>
+    <div class="grid">
+      <article>
+        <h3>スキーマ・データモデル</h3>
+        <p>観測・証拠・仮説・評価のデータ構造と収集パラメータ。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/tree/main/schema">schema ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/schemas">JSON Schemas ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/schema/README.md">スキーマ説明 ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/schema/crawl-params.json">crawl params ↗</a></div>
+      </article>
+      <article>
+        <h3>推薦エンジン</h3>
+        <p>アイドル特徴量・ユーザープロファイルを使った推薦ロジックと評価。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/tree/main/recommendation">recommendation ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/recommendation/README.md">使い方 ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/recommendation/seed">seed data ↗</a></div>
+      </article>
+      <article>
+        <h3>収集・自動化</h3>
+        <p>調査ワークフロー、収集ツール設定、GitHub Actions。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/tree/main/aw">aw設定 ↗</a><a href="https://github.com/bonsai/idol-research/blob/main/tools.yaml">tools.yaml ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/.github/workflows">Actions ↗</a></div>
+      </article>
+      <article>
+        <h3>分析・研究シード</h3>
+        <p>分析メモと、DB構築など次の調査に使う初期資料。</p>
+        <div class="links"><a href="https://github.com/bonsai/idol-research/tree/main/analysis">analysis ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/research-seeds">research seeds ↗</a><a href="https://github.com/bonsai/idol-research/tree/main/docs">docs ↗</a></div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="https://github.com/bonsai/idol-research">bonsai/idol-research</a> · Research index</p>
+    <p>このページは公開資料への入口です。各リンク先の内容・更新状況は、それぞれのページで確認してください。</p>
+  </footer>
+</main>
 </body>
 </html>
