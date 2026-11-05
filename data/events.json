@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-04",
+  "version": "2026-11-05",
   "events": [
     {
       "event_id": "yatai-fes-2026",
@@ -19,7 +19,22 @@
       "category": "idol_festival",
       "source_url": "https://club.tv-osaka.co.jp/article/event/28966/",
       "accessed_at": "2026-08-28",
-      "performers": ["天女神樂", "あゆめの", "おちゃメンタル☆パーティー", "カラフルスクリーム", "グットクルー", "新章 大阪☆春夏秋冬", "シンセカイヒーロー", "すーぱーぷーばぁー!!", "宇宙∞プラネクシア", "SAY-LA", "W.ダブルヴィー", "NEO BREAK", "ほくりくアイドル部", "POLARiS"]
+      "performers": [
+        "天女神樂",
+        "あゆめの",
+        "おちゃメンタル☆パーティー",
+        "カラフルスクリーム",
+        "グットクルー",
+        "新章 大阪☆春夏秋冬",
+        "シンセカイヒーロー",
+        "すーぱーぷーばぁー!!",
+        "宇宙∞プラネクシア",
+        "SAY-LA",
+        "W.ダブルヴィー",
+        "NEO BREAK",
+        "ほくりくアイドル部",
+        "POLARiS"
+      ]
     },
     {
       "event_id": "kirameki-fes-2026",
@@ -52,7 +67,10 @@
       "drink_fee_yen": 0,
       "start_time": "19:00",
       "priority_entry_time": "18:45",
-      "performers": ["脳内パステル", "宇宙∞プラネクシア"],
+      "performers": [
+        "脳内パステル",
+        "宇宙∞プラネクシア"
+      ],
       "reservation_url": null,
       "reservation_note": "一般観覧無料・予約不要。優先入場券は当日17:30から配布。優先入場券は対象商品購入が条件。",
       "source_urls": [
@@ -74,7 +92,10 @@
       "start_time": "20:10",
       "open_time": "19:50",
       "end_time": "22:00",
-      "performers": ["ワッツ◎さーくる", "W.ダブルヴィー"],
+      "performers": [
+        "ワッツ◎さーくる",
+        "W.ダブルヴィー"
+      ],
       "ticket_url": "https://livepocket.jp/e/amhall1105",
       "reservation_note": "2部通常エリア0円、前方エリア2,500円。各券種当日+500円、ドリンク代別。",
       "source_urls": [
@@ -84,6 +105,218 @@
       ],
       "accessed_at": "2026-11-04",
       "verification_status": "listed; confirm drink charge and ticket conditions with organizer"
+    },
+    {
+      "event_id": "yaoyorozu-festival-2026-day1",
+      "name": "YAOYOROZU FESTIVAL26 DAY1 こいこい神楽",
+      "date": "2026-11-06",
+      "venue": "久宝寺緑地 陸上競技場",
+      "region": "大阪府八尾市",
+      "category": "idol_festival",
+      "entry_fee_yen": 0,
+      "start_time": "16:00",
+      "performers": [
+        "リボンのないぷれぜんと",
+        "LΩPARA",
+        "LuvHz",
+        "+Alpha",
+        "にゃあにゃあ"
+      ],
+      "source_urls": [
+        "https://idolgenba.com/schedule/2026-11-06",
+        "https://idol-live.net/events/osaka"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "listed as free admission; organizer's day-of notice not independently confirmed"
+    },
+    {
+      "event_id": "colorful-scream-kinban-2026-11-06",
+      "name": "金晩アイドルライブ",
+      "date": "2026-11-06",
+      "venue": "ヨドバシ梅田 2F LINKS広場",
+      "region": "大阪府大阪市北区",
+      "category": "idol_release_event",
+      "entry_fee_yen": 0,
+      "start_time": "19:15",
+      "end_time": "19:45",
+      "performers": [
+        "カラフルスクリーム"
+      ],
+      "source_urls": [
+        "https://idoldays.jp/events/2026-11-06-yodobashi-umeda-links-square-039645",
+        "https://eventerlog.com/events/10079c4c-d2f7-4cc0-9e5f-c98e5573145d"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "free admission listed; approximately 30-minute performance; check official notice for day-of changes"
+    },
+    {
+      "event_id": "habatake-idol-extra-2026-11-06",
+      "name": "HABATAKE!! IDOL! EXTRA",
+      "date": "2026-11-06",
+      "venue": "梅田amHALL",
+      "region": "大阪府大阪市北区",
+      "category": "idol_live",
+      "open_time": "18:00",
+      "start_time": "18:20",
+      "performers": [
+        "キューハチパーセント！",
+        "Fille mimi",
+        "宇宙∞プラネクシア",
+        "グットクルー",
+        "Merry Mellow",
+        "脳内パステル"
+      ],
+      "source_urls": [
+        "https://idolgenba.com/schedule/2026-11-06",
+        "https://idol-live.net/events/osaka"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "schedule listed; ticket price not confirmed"
+    },
+    {
+      "event_id": "band-idol-fusion-esaka-2026-11-06",
+      "name": "ESAKA MUSE×新章 大阪☆春夏秋冬 pre. BAND×IDOL-FUSION-",
+      "date": "2026-11-06",
+      "venue": "ESAKA MUSE",
+      "region": "大阪府吹田市",
+      "category": "idol_live",
+      "start_time": "18:35",
+      "performers": [
+        "BE≠CAN",
+        "マイフェアガ→ル",
+        "alma",
+        "新章 大阪☆春夏秋冬"
+      ],
+      "source_urls": [
+        "https://idol-live.net/events/osaka",
+        "https://idolgenba.com/schedule/2026-11-06"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "schedule listed; individual ticket conditions not confirmed"
+    },
+    {
+      "event_id": "nikipre-osaka-mitsudomoe-2026-11-06",
+      "name": "#ﾆｷﾌﾟﾚ『オオサカッ!! -ミツドモエ-』",
+      "date": "2026-11-06",
+      "venue": "アメリカ村 BEYOND",
+      "region": "大阪府大阪市中央区",
+      "category": "idol_live",
+      "start_time": "19:00",
+      "entry_fee_yen": 3000,
+      "drink_fee_yen": 700,
+      "performers": [
+        "Axelight",
+        ".LiNIXLiNE.",
+        "いつかの夜に僕たちが"
+      ],
+      "source_urls": [
+        "https://genba-ikitai.com/areas/kansai/",
+        "https://idolgenba.com/schedule/2026-11-06"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "listed price 3000 yen plus 700 yen drink; confirm ticket page for current availability"
+    },
+    {
+      "event_id": "sekapro-joint-2026-11-06",
+      "name": "セカプロ合同公演",
+      "date": "2026-11-06",
+      "venue": "仮面女子シアター",
+      "region": "大阪府大阪市",
+      "category": "idol_live",
+      "start_time": "19:00",
+      "performers": [
+        "ひろいんあっぷでーと",
+        "アイディライト"
+      ],
+      "source_urls": [
+        "https://idolgenba.com/schedule/2026-11-06",
+        "https://idol-live.net/events/osaka"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "listed with no drink charge; admission price not confirmed"
+    },
+    {
+      "event_id": "croire-grato-osaka-2026-11-06",
+      "name": "Croire Grato-クログラ- 単独イベント 〜大阪出張編〜",
+      "date": "2026-11-06",
+      "venue": "アイドルテラス",
+      "region": "大阪府大阪市北区",
+      "category": "idol_live",
+      "start_time": "19:40",
+      "performers": [
+        "Croire Grato"
+      ],
+      "source_urls": [
+        "https://idolgenba.com/schedule/2026-11-06"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "listed with drink fee included; admission price not confirmed"
+    },
+    {
+      "event_id": "futaba-neru-birthday-2026-11-06",
+      "name": "二葉ねる生誕（にこにこねるちといっしょにあそぼ）",
+      "date": "2026-11-06",
+      "venue": "アメリカ村 DROP",
+      "region": "大阪府大阪市中央区",
+      "category": "idol_birthday_live",
+      "open_time": "19:40",
+      "start_time": "20:00",
+      "entry_fee_yen": 1000,
+      "drink_fee_yen": 700,
+      "performers": [
+        "ハピネスクラッカー！",
+        "二葉ねる"
+      ],
+      "source_urls": [
+        "https://www.live-guide-osaka.com/schedule/drop",
+        "https://idolgenba.com/schedule/2026-11-06"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "general ticket listed 1000 yen plus 700 yen drink; priority ticket 2500 yen plus drink"
+    },
+    {
+      "event_id": "yosoka-en-2026-11-06",
+      "name": "夜想華宴",
+      "date": "2026-11-06",
+      "venue": "#G8 NUMBER GATE",
+      "region": "大阪府大阪市中央区",
+      "category": "idol_live",
+      "open_time": "17:40",
+      "start_time": "18:00",
+      "performers": [
+        "狂鳴-ｷｮｳﾒｲ-",
+        "SOCIAL×MATCH",
+        "LyricalPopParadox",
+        "AIMIA",
+        "KAMuRO",
+        "matatabi",
+        "LuvHz"
+      ],
+      "source_urls": [
+        "https://idolgenba.com/schedule/2026-11-06",
+        "https://idol-live.net/events/osaka"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "schedule listed; ticket price not confirmed"
+    },
+    {
+      "event_id": "fate-piece-land-11-2026-11-06",
+      "name": "Fate Piece LAND vol.11",
+      "date": "2026-11-06",
+      "venue": "LIVE HOUSE KuRaGe",
+      "region": "大阪府大阪市中央区",
+      "category": "idol_live",
+      "open_time": "18:30",
+      "start_time": "18:50",
+      "performers": [
+        "i Moon",
+        "むげんこんぜ"
+      ],
+      "source_urls": [
+        "https://idolgenba.com/schedule/2026-11-06"
+      ],
+      "accessed_at": "2026-11-05",
+      "verification_status": "schedule listed; ticket price not confirmed"
     }
   ]
 }
